@@ -1,0 +1,2 @@
+module DisfrazsHelper
+end

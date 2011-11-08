@@ -1,0 +1,17 @@
+%ul
+  %li
+    %strong
+      %a= current_user.username if user_signed_in?
+  %li
+    = link_to 'generar resultados', resultados_generar_path
+  %li
+    = link_to 'ver resultados', resultados_ver_path
+  %li
+    = link_to 'ver usuarios', resultados_total_usuarios_path
+  %li
+    = link_to 'ver disfraces posibles', disfrazs_path
+  %li.logout
+    - if user_signed_in?
+      = link_to "Salir", destroy_user_session_path, :method => :delete
+    - else
+      = link_to "Entrar", new_user_session_path

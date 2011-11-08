@@ -1,0 +1,8 @@
+es:
+  notas:
+    no_equipo: 'No tienes ningún equipo'
+    crea_equipo:
+      title: 'Comienza a jugar'
+      text: 'Para empezar a jugar debes crear tu primer equipo.'
+      link: 'Crea Equipo'
+  sign_up: 'Enviar'

@@ -1,0 +1,11 @@
+%h1
+  Disfraz --------->
+  = @disfraz.nombre if @disfraz.present?
+
+%h2 lo llevan:
+%table
+  - if @otros.present?
+    - @otros.each do |u|
+      %tr
+        %td
+          = u.username

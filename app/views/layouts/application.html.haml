@@ -1,0 +1,23 @@
+!!! 5
+%html
+  = render :partial => 'layouts/head'
+  %body
+    #nav
+      #menu
+        = render :partial => 'layouts/navegacion'
+    #main
+      - if flash.present?
+        .flash
+          - flash.each do |type, message|
+            %div{:class => "message #{type}"}
+              %p= message
+      #cuerpo
+        = yield
+      #sidebar
+        = yield :sidebar
+
+    %footer#footer
+      = render :partial => 'layouts/footer'
+  -# All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects
+  = javascript_include_tag "application"
+  = csrf_meta_tag

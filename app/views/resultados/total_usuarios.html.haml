@@ -1,0 +1,7 @@
+%h1 Lista de usuarios
+
+%table
+  - @usuarios.each do |u|
+    %tr
+      %td
+        = u.username

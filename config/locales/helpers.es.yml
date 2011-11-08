@@ -1,0 +1,8 @@
+es:
+  helpers:
+    label:
+      user:
+        username: 'Usuario'
+        email: 'e-mail'
+        password: 'Password'
+        password_confirmation: 'Confirma password'
