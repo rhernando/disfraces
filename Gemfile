@@ -5,6 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+
 gem 'sqlite3'
 gem 'devise'
 
@@ -22,6 +23,8 @@ gem 'fancybox-rails'
 gem "rails-boilerplate"
 gem 'modernizr-rails'
 
+
+
 gem 'haml'
 
 # To use ActiveModel has_secure_password
@@ -35,6 +38,10 @@ gem 'haml'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+group :production do
+  gem 'pg'
+end
 
 group :test do
   # Pretty printed test output
