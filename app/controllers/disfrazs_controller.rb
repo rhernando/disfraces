@@ -4,6 +4,7 @@ class DisfrazsController < ApplicationController
   # GET /disfrazs
   # GET /disfrazs.json
   def index
+    return if !current_user.admin?
     @disfrazs = Disfraz.all
 
     respond_to do |format|
@@ -15,6 +16,7 @@ class DisfrazsController < ApplicationController
   # GET /disfrazs/1
   # GET /disfrazs/1.json
   def show
+    return if !current_user.admin?
     @disfraz = Disfraz.find(params[:id])
 
     respond_to do |format|
@@ -36,6 +38,7 @@ class DisfrazsController < ApplicationController
 
   # GET /disfrazs/1/edit
   def edit
+    return if !current_user.admin?
     @disfraz = Disfraz.find(params[:id])
   end
 
