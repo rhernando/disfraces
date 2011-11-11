@@ -27,19 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="16" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ver.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ver.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/resultados/ver.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="20" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+            <state line="4" column="12" selection-start="79" selection-end="79" vertical-scroll-proportion="0.074074075">
               <folding />
             </state>
           </provider>
@@ -90,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="disfrazs_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="disfrazs_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/disfrazs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="34" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.018518519">
+            <state line="53" column="34" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,6 +94,15 @@
         <entry file="file://$PROJECT_DIR$/app/views/disfrazs/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generar.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/resultados/generar.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,12 +137,12 @@
         <option value="$PROJECT_DIR$/app/controllers/resultados_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/disfrazs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/resultados/ver.html.haml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navegacion.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/disfrazs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/resultados/ver.html.haml" />
       </list>
     </option>
   </component>
@@ -636,11 +636,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20111108164717_add_username_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="29" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" />
@@ -664,11 +659,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="16" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/resultados/ver.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -700,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/disfrazs/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/functional/disfrazs_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -723,7 +706,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/disfrazs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="34" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.018518519">
+        <state line="53" column="34" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disfrazs/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/resultados/generar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/resultados/ver.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="79" selection-end="79" vertical-scroll-proportion="0.074074075">
           <folding />
         </state>
       </provider>
