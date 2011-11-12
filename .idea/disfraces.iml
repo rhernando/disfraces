@@ -23,8 +23,8 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.13, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.1.2, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.1.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-boilerplate (v0.1.4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v1.4.9, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-boilerplate (v0.1.4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.1.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.10, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.17.2, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
@@ -50,10 +50,11 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.1.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.6.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.3.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.3.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.1.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.11, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v0.11.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.31, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.3.5, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
@@ -64,8 +65,8 @@
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.0.3, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.7, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.0.5, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

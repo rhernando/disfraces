@@ -3,7 +3,10 @@ class ResultadosController < ApplicationController
   def generar
     if current_user.admin?
       User.all.each do |u|
-        u.disfraz = Disfraz.all.sort_by { rand }.first
+        disfraces = Disfraz.all.sort_by { rand }
+
+
+        u.disfraz = disfraces.pop
 
 
         u.save!
