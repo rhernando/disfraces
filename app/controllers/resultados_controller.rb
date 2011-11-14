@@ -2,12 +2,11 @@ class ResultadosController < ApplicationController
   before_filter :authenticate_user!
   def generar
     if current_user.admin?
+      disfraces = Disfraz.all.sort_by { rand }
       User.all.each do |u|
-        disfraces = Disfraz.all.sort_by { rand }
 
 
         u.disfraz = disfraces.pop
-
 
         u.save!
 
